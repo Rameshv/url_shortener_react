@@ -1,3 +1,8 @@
 .textInput {
   width: 800px;
 }
+
+.used {
+  width: 60px;
+  height: 60px;
+}

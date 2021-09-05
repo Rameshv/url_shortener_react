@@ -1,6 +1,6 @@
 const URLInfo = ({data}) => {
     return <div className={`flex ${data.newly_added ? 'bg-yellow-100' : ''}`}>
-                 <div className="m-1 mr-2 w-12 h-12 relative flex justify-center items-center  bg-purple-200 text-purple-700 uppercase used">
+                 <div className="m-1 mr-2 relative flex justify-center items-center  bg-purple-200 text-purple-700 flex-none used">
                     {data.used}
                  </div>
                 <div className="flex-col p-3 flex-auto">

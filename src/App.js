@@ -61,11 +61,11 @@ function App() {
 
 
 	return (
-		<div className="m-auto bg-gray-50 container">
+		<div className="mx-auto bg-gray-50 container">
 			<h1 className="text-7xl text-center font-bold"> Great Url shortener</h1>
-			<div className="pt-5 flex m-auto textInput justify-center">
-			<input type="text" className=" border border-purple-700 flex-auto  pl-10" placeholder="Enter your URL here" value={urlInput} onChange={(e) => seturlInput(e.target.value)} />
-			<button type="button" className="ml-5 bg-purple-200 text-purple-700 text-base font-semibold px-6 py-2 rounded-lg flex-none" onClick={handleSubmit}>Short it</button>
+			<div className="pt-5 mt-5 flex mx-auto  justify-center p-5">
+				<input type="text" className=" border border-purple-700 flex-auto  pl-10" placeholder="Enter your URL here" value={urlInput} onChange={(e) => seturlInput(e.target.value)} />
+				<button type="button" className="ml-5 bg-purple-200 text-purple-700 text-base font-semibold px-6 py-2 rounded-lg flex-none" onClick={handleSubmit}>Short it</button>
 			</div>
 
 			<div className="flex mt-5 p-5">
